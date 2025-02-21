@@ -1,12 +1,20 @@
 table{
     border-collapse: collapse;
-    width: 100;
+    width: 100;/*ancho de la tabla que deseemos ocupar*/
 }
 th,td{
-    border: 1px solid #6fb5ee;
+    border: 1px solid #6fb5ee;/*color de borde que se desee*/
     padding: 8px;
-    text-align: left;
+    text-align: left;/*Alineación de texto */
 }
 th{
-    background-color: #6fb5ee;
+    background-color: #6fb5ee;/*color de fondo para los encabezados*/ 
+    font-weight: bold; /*colocar las letras del encabezado en negritas*/
 }
+/*estilo de fila para una mejor visualización*/
+tr:nth-child(even){
+    background-color: rgb(147, 238, 250);/*color visible para todas las filas pares*/
+}
+/*estilo para pasar sobre de el*/
+tr:hover {
+    background-color: rgb(223, 162, 223);}/*color mas oscuro al pasar sobre de la fila*/
