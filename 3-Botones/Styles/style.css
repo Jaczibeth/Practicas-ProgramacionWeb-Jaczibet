@@ -1,0 +1,22 @@
+.boton1{
+    border-radius: 15px;
+    background-color: blue;
+    color: aquamarine;
+}
+.boton2{
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: rgb(8, 64, 90)
+    padding: 10px 20px;
+}
+
+.boton3{
+    border-radius: 15;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: end;
+    border:none;
+    font-size: 25px;
+    font-family: cursive;
+}
