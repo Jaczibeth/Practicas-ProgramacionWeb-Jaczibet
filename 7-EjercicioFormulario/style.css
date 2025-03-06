@@ -19,7 +19,7 @@ body {
 
 /* Títulos y etiquetas */
 h2, .form-label {
-    color: #6a5a89; /* Un tono lila oscuro para contraste */
+    color: #020202; /* Un tono lila oscuro para contraste */
     font-weight: bold;
 }
 
@@ -27,6 +27,8 @@ h2, .form-label {
 .form-control, .form-select {
     border: 1px solid #6aa7e4; /* Borde azul pastel */
     border-radius: 5px;
+    background-color: rgb(221, 251, 255);
+    
 }
 /*  al pasar por alguna selección en carrera*/
 .form-control:focus, .form-select:focus {
@@ -36,15 +38,15 @@ h2, .form-label {
 
 /* Botón de enviar */
 .btn-primary {
-    background-color: #6aa7e4; /* Azul pastel */
+    background-color: #5eaaf7; /* Azul pastel */
     border-color: #5898dd;
-    color: rgb(19, 16, 16);
+    color: rgb(7, 7, 7);
 }
 /*al pasar el cursor del boton crear*/
 .btn-primary:hover {
-    background-color: #5898dd; /* Azul más oscuro al pasar el cursor */
+    background-color: #6d9ed3; /* Azul más oscuro al pasar el cursor */
     border-color: #4a8bc7;
 }
 
 
-    
+   
