@@ -1,0 +1,52 @@
+body {
+    background-color: #afcff0; /* Azul claro de fondo */
+}
+
+.container {
+    background-color: #f5c8c8; /* Rosa pastel para el contenedor principal */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilos para el formulario */
+.card {
+    background-color: #f8d7da; /* Color rosado claro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos y etiquetas */
+h2, .form-label {
+    color: #020202; /* Un tono lila oscuro para contraste */
+    font-weight: bold;
+}
+
+/* Inputs y selects */
+.form-control, .form-select {
+    border: 1px solid #6aa7e4; /* Borde azul pastel */
+    border-radius: 5px;
+    background-color: rgb(221, 251, 255);
+    
+}
+/*  al pasar por alguna selección en carrera*/
+.form-control:focus, .form-select:focus {
+    border-color: #5898dd;
+    box-shadow: 0 0 5px rgba(88, 152, 221, 0.5);
+}
+
+/* Botón de enviar */
+.btn-primary {
+    background-color: #5eaaf7; /* Azul pastel */
+    border-color: #5898dd;
+    color: rgb(7, 7, 7);
+}
+/*al pasar el cursor del boton crear*/
+.btn-primary:hover {
+    background-color: #6d9ed3; /* Azul más oscuro al pasar el cursor */
+    border-color: #4a8bc7;
+}
+
+
+   
